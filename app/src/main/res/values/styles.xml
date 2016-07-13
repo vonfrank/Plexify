@@ -1,13 +1,16 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Material">
-        <!-- Customize your theme here. -->
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat">
         <item name="android:colorPrimary">@color/colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@color/dividerColor</item>
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
         <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
-
+    <!-- Toolbar -->
+    <style name="ToolbarTitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>
