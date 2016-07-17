@@ -4,11 +4,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <!-- Content -->
+    <!-- Static content in song_fragment goes here -->
     <TextView
         android:id="@+id/testview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textColor="@color/textColorDrawerPrimary"
         android:text="Hello World"/>
 </LinearLayout>

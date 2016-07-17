@@ -18,13 +18,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Toolbar must be initialized, in order to create hamburger menu
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
+        // Initialize drawer layout, and add hamburger menu to toolbar
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
+        // Add song fragment, to the content_fragment_container. Song fragment is the default fragment
         if(savedInstanceState == null){
             sf = new SongFragment();
             getSupportFragmentManager().beginTransaction().add(R.id.content_fragment_container, sf).commit();
