@@ -9,10 +9,9 @@ import android.view.ViewGroup;
 import dk.vonfrank.plexify.R;
 
 /**
- * Created by Von Frank on 14-07-2016.
- * Song fragment provides the basic GUI, when "songs" have been pressed. "Songs" is also the default view for Plexify.
+ * Created by Von Frank on 18-07-2016.
  */
-public class SongFragment extends Fragment {
+public class LoginFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -21,9 +20,7 @@ public class SongFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View view = inflater.inflate(R.layout.song_fragment, container, false);
-
-        // Content goes here
+        View view = inflater.inflate(R.layout.login_fragment, container, false);
 
         return view;
     }
