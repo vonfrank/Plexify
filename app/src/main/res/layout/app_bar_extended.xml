@@ -8,8 +8,13 @@
         android:id="@+id/toolbar_extended"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="128dp"
         android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/title_extended"
+            style="@style/ToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_plex_account"/>
     </android.support.v7.widget.Toolbar>
     <!-- End of custom toolbar -->
     <FrameLayout

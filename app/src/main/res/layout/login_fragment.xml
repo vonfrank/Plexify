@@ -38,13 +38,13 @@
                 app:hintTextAppearance="@style/TextInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <EditText
+                <AutoCompleteTextView
                     android:id="@+id/password_field"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/password_login"
                     android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_label"
+                    android:imeActionLabel="@string/sign_in_button_label"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
                     android:maxLines="1" />

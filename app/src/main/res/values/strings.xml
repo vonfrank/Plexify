@@ -6,7 +6,7 @@
     <string name="server_name">Server name</string>
     <string name="username_login">Email or username</string>
     <string name="password_login">Password</string>
-    <string name="action_label">Sign in</string>
     <string name="sign_in_button_label">Sign in</string>
+    <string name="add_plex_account">Add your Plex account</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut interdum ligula. Donec blandit massa quis fringilla cursus. Vivamus velit quam, tincidunt id turpis eu, ullamcorper dignissim metus. Aliquam dictum consectetur nisl, vel fermentum erat vulputate a. Sed sagittis massa sed mi porta, vitae finibus lacus lacinia. Morbi vehicula augue sed arcu hendrerit volutpat. Sed tincidunt diam eget turpis convallis, egestas hendrerit nulla molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut interdum ligula. Donec blandit massa quis fringilla cursus. Vivamus velit quam, tincidunt id turpis eu, ullamcorper dignissim metus. Aliquam dictum consectetur nisl, vel fermentum erat vulputate a. Sed sagittis massa sed mi porta, vitae finibus lacus lacinia. Morbi vehicula augue sed arcu hendrerit volutpat. Sed tincidunt diam eget turpis convallis, egestas hendrerit nulla molestie.</string>
 </resources>
